@@ -1,0 +1,88 @@
+.posts, .myPost, .myPostHead, .myPostReaction, .myPostReaction_option
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.posts {
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.myPost {
+    flex-direction: column;
+    width: 80%;
+    background: #f4dff8;
+    margin-bottom: 1rem;
+    border-radius: 15px;
+}
+
+.myPostHead {
+    padding: 1rem;
+    justify-content: space-between;
+}
+
+.myPostHead h3{
+    margin: 0;
+    margin-left: 1rem;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.myPostHead h2{
+    margin: 0;
+    margin-left: 1rem;
+    font-size: smaller;
+    font-weight: lighter;
+}
+
+.myPostHead_option {
+    color: gray;
+    padding: 5px 10px;
+    margin: 5px 10px;
+    cursor: pointer;   
+}
+
+.myPostHead_option:hover {
+    border-radius: 10px;
+    color: white;
+    background: #be4bdd;
+}
+
+.MyPostContext{
+    width: 100%;
+}
+
+.MyPostContext img {
+    width: 100%;
+    margin: 5px 0;
+}
+
+.MyPostContext h3 {
+    justify-content: flex-start;
+    font-weight: lighter;
+    margin: 1rem 2rem;
+}
+
+.myPostReaction {
+    width: 90%;
+    border-top:#be4bdd solid 2px;
+    justify-content: space-between;
+}
+
+.myPostReaction_option h3 {
+    padding-left: 1rem;
+}
+
+.myPostReaction_option {
+    margin: 1rem;
+    border-radius: 10px;
+    font-size: medium;
+}
+
+.myPostReaction_option:hover {
+    background: #be4bdd;
+    color: white;
+}

@@ -1,0 +1,22 @@
+.myForm, .fileInput, .myForm_button_contanner
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.myForm {
+    background: #f4dff8;
+    padding: 1rem;
+    border-radius: 20px;
+}
+
+.fileInput {
+    /* height: 2rem; */
+    width: 50%;
+}
+
+.myForm_button_contanner{
+    flex-direction: row;
+}

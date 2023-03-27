@@ -1,0 +1,57 @@
+.myButton, .myPost
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myButton {
+    padding: 10px 15px;
+    margin: 10px 15px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    background: #be4bdd;
+}
+
+.myInput, .myTextarea
+{
+    background: white;
+    padding: 0.8rem;
+    margin-bottom: 1.2rem;
+    border-radius: 10px;
+    position: relative;
+}
+
+.myInput input,
+.myTextarea textarea 
+{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: larger;
+}
+
+.myInput label,
+.myTextarea label 
+{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: #be4bdd;
+    text-transform: capitalize;
+    transition: top .4s;
+}
+
+.myInput input:focus ~ label,
+.myTextarea textarea:focus ~ label
+{
+    top: -9px;
+    background: white;
+    padding: 3px 10px;
+}
+
+.myTextarea textarea  {
+    height: 10rem;
+    width: 20rem;
+}

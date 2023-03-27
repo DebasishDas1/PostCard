@@ -1,0 +1,60 @@
+.header, .header__logo, .header__search, .header__profile
+{
+    display: flex;
+    align-items: center;
+}
+
+.header {
+    height: 4rem;
+    padding: 0 7rem;
+}
+
+.header__logo img{
+    height: 3rem;
+    padding: 0.5rem;
+}
+
+.header__logo {
+    flex: 2;
+    font-weight: bolder;
+    font-size: x-large;
+    color: #be4bdd;
+}
+
+.header__search {
+    flex: 3;
+    height: 70%;
+    border-radius: 10px;
+}
+
+.header__search input {
+    border: none;
+    outline: none;
+    font-size: larger;
+    margin-left: 1rem;
+}
+
+.header__profile {
+    flex: 2;
+    justify-content: flex-end;
+}
+
+.header__profile h3{
+    margin-right: 1rem;
+    font-size:medium;
+}
+
+.header__option {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    padding: 5px 10px;
+    cursor: pointer;   
+    font-size:x-small; 
+}
+
+.header__option:hover {
+    color: #684ade;
+    background-color: rgb(239, 242, 245); 
+    border-radius: 10px;
+}
