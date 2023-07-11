@@ -11,6 +11,7 @@ const App = () => {
         <div className={styles.app} >
             <Header />
             <div className={styles.app_contaner} >
+                it is fun
                 <SideManue />
                 <div className={styles.app_page_contaner} >
                     <Routes>
