@@ -7,6 +7,7 @@ const MyTask = ({ value, action, title }) => {
                 value={value}
                 onChange={action}
             />
+                    ok
             <label>{title}</label>
         </div>
     );
