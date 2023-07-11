@@ -13,6 +13,7 @@ const App = () => {
             <div className={styles.app_contaner} >
                 <SideManue />
                 <div className={styles.app_page_contaner} >
+                    yo
                     <Routes>
                         <Route path="/" element={<Home />} />
                         <Route path="/explore" element={<Explore />} />
